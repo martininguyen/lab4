@@ -30,12 +30,14 @@
     <div class="row">
       <div class="col-md-6">
         <table class="table">
+		 {{#each review}}
           <thead>
             <tr>
-              <th>User</td>
-              <th>Salient need</td>
+              <th>{{occu}}</td>
+              <th>{{desc}}</td>
             </tr>
           </thead>
+		  {{/each}}
           <tbody>
             <tr>
               <td>Schoolteacher</td>
