@@ -4,7 +4,9 @@ exports.viewProject = function(req, res) {
   console.log("The project name is: " + name);
   res.render('project', {
     'projectName': name,
-	'review' : [
+  });
+  res.render('project', {
+    'review' : [
 		{ 'occu': 'User'
 		  'desc': 'Salient need'		
 		},
@@ -15,5 +17,5 @@ exports.viewProject = function(req, res) {
 		  'desc': 'Desire to be seen as a tastemaker for her friends. Hears about new music from older sister in middle school.'
 		},
 	]
-  });
+  })
 };
