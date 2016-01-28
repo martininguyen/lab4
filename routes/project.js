@@ -5,17 +5,4 @@ exports.viewProject = function(req, res) {
   res.render('project', {
     'projectName': name,
   });
-  res.render('project', {
-    'review' : [
-		{ 'occu': 'User'
-		  'desc': 'Salient need'		
-		},
-		{ 'occu': 'Schoolteacher'
-		  'desc': 'Wants to know what music students are listening to so he can integrate it into his lessons.'	
-		},
-		{ 'occu': 'Student 5th grade'
-		  'desc': 'Desire to be seen as a tastemaker for her friends. Hears about new music from older sister in middle school.'
-		},
-	]
-  })
 };
