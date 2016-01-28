@@ -14,8 +14,8 @@ exports.viewProject = function(req, res) {
 		{ 'occu': 'Student 5th grade',
 		  'desc': 'Desire to be seen as a tastemaker for her friends. Hears about new music from older sister in middle school.',
 		},
-		{ 'occu': 'Test User'
-		  'desc': 'It works!!'
+		{ 'occu': 'Test User',
+		  'desc': 'It works!!',
 		},
 	]
   });
